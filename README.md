@@ -1,4 +1,3 @@
-```markdown
 # VIPER 2025
 
 **VIPER 2025** is an advanced, modular penetration testing framework designed for professional red team operations and security research. It integrates the top attack techniques into a unified, automated platform for comprehensive security assessments.
