@@ -1,0 +1,53 @@
+# VIPER 2025 .gitignore
+# Sensitive Configuration
+config/*.conf
+!config/*.example.conf
+
+# C2 Server Files
+c2_server/c2_cert.pem
+c2_server/c2_key.pem
+c2_server/c2_server.db
+
+# Logs and Output
+logs/*
+*.log
+
+# Generated Payloads and Binaries
+payloads/**/*
+!payloads/**/.keep
+
+# Operational Directories (Hidden)
+.viper_*/
+.viper_cache/
+.viper_sessions/
+.viper_logs/
+.viper_persistence/
+.viper_evasion/
+
+# System Integration (Links)
+/etc/viper
+/var/lib/viper
+/usr/local/share/viper
+/tmp/.viper
+/dev/shm/.viper_cache
+
+# Backup Files
+backups/*
+*.bak
+*.tmp
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python Generated Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv/
+venv/
